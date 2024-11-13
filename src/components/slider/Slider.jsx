@@ -25,6 +25,7 @@ export default function Slider() {
                 {images.map((image, index) => (
                     <div key={index} className={cl.slide}>
                         <img src={image} alt={`Slide ${index + 1}`} />
+                        <p>Текс</p>
                     </div>
                 ))}
             </div>

@@ -1,9 +1,9 @@
 import React from 'react'
 import { Route, Routes } from 'react-router-dom'
-import Home from '../pages/Home'
+import Home from '../pages/home/Home'
 import Menu from '../components/menu/Menu'
 import Cart from '../pages/Cart'
-import Products from '../pages/Products'
+import Products from '../pages/products/Products'
 import Product from '../pages/Product'
 
 export default function Routing() {

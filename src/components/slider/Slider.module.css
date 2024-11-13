@@ -1,6 +1,7 @@
-body{
+body {
     margin: 0;
 }
+
 .sliderContainer {
     position: relative;
     width: 100%;
@@ -16,13 +17,19 @@ body{
 .slide {
     min-width: 100%;
     height: 100%;
-    transition: transform 0.5s ease-in-out;
+    display: flex;
+    justify-content: center;
+    /* Центрируем изображение по горизонтали */
+    align-items: center;
+    /* Центрируем изображение по вертикали */
 }
 
 img {
-    width: 100%;
-    height: 100%;
     object-fit: cover;
+    position: relative;
+    width: 100%;
+    height: 200px;
+    overflow: hidden;
 }
 
 .arrowPrev,
@@ -46,3 +53,7 @@ img {
     right: 10px;
 }
 
+p {
+    z-index: 1;
+    position: absolute;
+}
