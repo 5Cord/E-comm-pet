@@ -5,6 +5,7 @@ import Menu from '../components/menu/Menu'
 import Cart from '../pages/Cart'
 import Products from '../pages/products/Products'
 import Product from '../pages/Product'
+import Register from '../pages/auth/Register'
 
 export default function Routing() {
     return (
@@ -15,6 +16,7 @@ export default function Routing() {
                 <Route path="/products" element={<Products />} />
                 <Route path="/products/:id" element={<Product />} />
                 <Route path="/cart" element={<Cart />} />
+                <Route path="/register" element={<Register />} />
             </Routes>
         </>
     )

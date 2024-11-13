@@ -23,6 +23,7 @@ export default function Menu() {
                 <Link to="/">Главная</Link>
                 <Link to="/products">Продукты</Link>
                 <Link to="/cart">Корзина</Link>
+                <Link to="/register">Регистрация</Link>
             </nav>
         </>
     );

@@ -1,4 +1,8 @@
-.container{
+.container {
     width: 80%;
     margin: 0 auto;
+}
+
+html {
+    background-color: rgb(32, 32, 32);
 }
