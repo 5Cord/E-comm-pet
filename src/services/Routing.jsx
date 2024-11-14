@@ -5,7 +5,7 @@ import Menu from '../components/menu/Menu'
 import Cart from '../pages/Cart'
 import Products from '../pages/products/Products'
 import Product from '../pages/Product'
-import Register from '../pages/auth/Register'
+import Register from '../pages/register/Register'
 
 export default function Routing() {
     return (
