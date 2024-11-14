@@ -24,6 +24,7 @@ export default function Menu() {
                 <Link to="/products">Продукты</Link>
                 <Link to="/cart">Корзина</Link>
                 <Link to="/register">Регистрация</Link>
+                <Link to="/authorize">Авторизация</Link>
             </nav>
         </>
     );

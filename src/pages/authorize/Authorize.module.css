@@ -1,0 +1,31 @@
+/* Центрируем форму с помощью absolute и transform */
+.registerForm {
+    width: 80%;
+    max-width: 400px;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    /* Размытие фона */
+    -webkit-backdrop-filter: blur(10px);
+    /* Для старых браузеров */
+    border-radius: 10px;
+    color: #fff;
+    font-family: Arial, sans-serif;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    background-image: url('path_to_noise_image.png');
+    /* Шумовое фоновое изображение */
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    /* Центровка по вертикали и горизонтали */
+}
+
+.formTitle {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+    text-shadow: 0 0 5px rgba(255, 255, 255, 0.6);
+}

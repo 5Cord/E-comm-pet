@@ -1,4 +1,10 @@
 {
   "users": [
+    {
+      "id": "42b5",
+      "email": "dima2v@bk.ru",
+      "name": "Димас",
+      "password": "$2a$10$gzsYlrL6fZh/1yYoay15KO8mNL3oU0eEkN/78NPs/P7FEj3gNL9Ze"
+    }
   ]
 }
